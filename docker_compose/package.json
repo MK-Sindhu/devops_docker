@@ -1,0 +1,19 @@
+{
+  "name": "docker_compose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "contract:emit": "prisma contract emit"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/orm-postgres": "^8.0.0-rc.12",
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
+    "prisma": "^8.0.0-rc.15",
+    "typescript": "^7.0.2"
+  }
+}
