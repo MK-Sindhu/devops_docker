@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "contract:emit": "prisma contract emit"
+    "contract:emit": "prisma contract emit",
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts"
   },
   "keywords": [],
   "type": "commonjs",
   "dependencies": {
     "@prisma/orm-postgres": "^8.0.0-rc.12",
     "@types/express": "^5.0.6",
+    "dotenv": "^18.0.3",
     "express": "^5.2.1",
     "prisma": "^8.0.0-rc.15",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
 }
